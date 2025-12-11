@@ -92,7 +92,7 @@ import java.util.Optional;
 import java.util.stream.Collectors;
 @CrossOrigin(origins = "*") 
 @RestController
-@RequestMapping("/employees")
+@RequestMapping("/api/v1/employees")
 public class EmployeeController {
 
     private static final Logger log = LoggerFactory.getLogger(EmployeeController.class);

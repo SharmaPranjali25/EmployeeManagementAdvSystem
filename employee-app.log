@@ -305,3 +305,7 @@ Identify and stop the process that's listening on port 8997 or configure this ap
 2025-12-11T18:10:18.336+05:30  INFO 7480 --- [http-nio-7665-exec-4] c.e.E.EmployeeService                    : Fetching all employees
 2025-12-11T18:10:18.603+05:30 DEBUG 7480 --- [http-nio-7665-exec-4] c.e.E.EmployeeService                    : Total employees fetched: 7
 2025-12-11T18:10:18.604+05:30 DEBUG 7480 --- [http-nio-7665-exec-4] c.e.E.EmployeeController                 : Total employees fetched: 7
+2025-12-11T18:16:46.831+05:30  INFO 7480 --- [RMI TCP Connection(11)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-12-11T18:16:46.857+05:30  INFO 7480 --- [RMI TCP Connection(11)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-11T18:16:46.863+05:30  INFO 7480 --- [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-12-11T18:16:46.880+05:30  INFO 7480 --- [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
