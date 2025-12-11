@@ -23,7 +23,7 @@
 //        employee.setName(requestDTO.getName());
 //        employee.setDepartment(requestDTO.getDepartment());
 //        employee.setSalary(requestDTO.getSalary());
-//// Employee savedEmployee = service.saveEmployee(employee);
+// Employee savedEmployee = service.saveEmployee(employee);
 //        EmployeeResponseDTO savedEmployee = service.saveEmployee(requestDTO);
 //
 //
@@ -88,8 +88,9 @@ import com.example.EmployeeManagementSystem.dto.EmployeeRequestDTO;
 import com.example.EmployeeManagementSystem.dto.EmployeeResponseDTO;
 
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.Collectors;
-
+@CrossOrigin(origins = "*") 
 @RestController
 @RequestMapping("/employees")
 public class EmployeeController {
@@ -171,11 +172,7 @@ public class EmployeeController {
         var employeeEntity = service.getEmployeeById(id)
                 .orElseThrow(() -> new ResourceNotFoundException("Employee not found with id: " + id));
 
-        // Map Entity → DTO
-        EmployeeResponseDTO empDTO = modelMapper.map(employeeEntity, EmployeeResponseDTO.class);
-
-        log.debug("Employee found: {}", empDTO.getName());
-        return empDTO;
+        return modelMapper.map(employeeEntity, EmployeeResponseDTO.class);
     }
 
     // Update Employee

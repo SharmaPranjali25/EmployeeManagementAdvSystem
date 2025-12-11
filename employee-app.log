@@ -154,3 +154,154 @@ Identify and stop the process that's listening on port 8997 or configure this ap
 2025-12-11T17:12:46.502+05:30  INFO 7836 --- [http-nio-7665-exec-7] c.e.E.EmployeeService                    : Request to delete employee with ID: 6
 2025-12-11T17:12:46.583+05:30 DEBUG 7836 --- [http-nio-7665-exec-7] c.e.E.EmployeeService                    : Employee deleted successfully with ID: 6
 2025-12-11T17:12:46.583+05:30 DEBUG 7836 --- [http-nio-7665-exec-7] c.e.E.EmployeeController                 : Employee deleted successfully with ID: 6
+2025-12-11T17:36:43.203+05:30  INFO 7836 --- [http-nio-7665-exec-6] c.e.E.EmployeeController                 : POST /employees/add - Request to add employee: Kush Mehta
+2025-12-11T17:36:43.204+05:30  INFO 7836 --- [http-nio-7665-exec-6] c.e.E.EmployeeService                    : Request to save employee: Kush Mehta
+2025-12-11T17:36:43.298+05:30 DEBUG 7836 --- [http-nio-7665-exec-6] c.e.E.EmployeeService                    : Employee saved successfully: Employee(id=7, name=Kush Mehta, department= Networkings, salary=70000.0)
+2025-12-11T17:36:43.301+05:30 DEBUG 7836 --- [http-nio-7665-exec-6] c.e.E.EmployeeController                 : Employee saved successfully: Kush Mehta
+2025-12-11T17:44:43.322+05:30  INFO 25960 --- [RMI TCP Connection(74)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-12-11T17:44:43.361+05:30  INFO 25960 --- [RMI TCP Connection(74)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-11T17:44:43.370+05:30  INFO 25960 --- [RMI TCP Connection(74)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-12-11T17:44:43.379+05:30  INFO 25960 --- [RMI TCP Connection(74)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-12-11T17:44:43.921+05:30  INFO 7836 --- [RMI TCP Connection(37)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-12-11T17:44:43.932+05:30  INFO 7836 --- [RMI TCP Connection(37)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-11T17:44:43.934+05:30  INFO 7836 --- [RMI TCP Connection(37)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-12-11T17:44:43.940+05:30  INFO 7836 --- [RMI TCP Connection(37)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-12-11T17:44:50.044+05:30  INFO 15512 --- [main] .e.E.EmployeeManagementSystemApplication : Starting EmployeeManagementSystemApplication using Java 21.0.7 with PID 15512 (C:\Users\hp\OneDrive\Desktop\EmployeeManagementSystem\EmployeeManagementSystem\target\classes started by Pranjali in C:\Users\hp\OneDrive\Desktop\EmployeeManagementSystem\EmployeeManagementSystem)
+2025-12-11T17:44:50.047+05:30 DEBUG 15512 --- [main] .e.E.EmployeeManagementSystemApplication : Running with Spring Boot v3.2.0, Spring v6.1.1
+2025-12-11T17:44:50.048+05:30  INFO 15512 --- [main] .e.E.EmployeeManagementSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2025-12-11T17:44:51.260+05:30  INFO 15512 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-11T17:44:51.331+05:30  INFO 15512 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 61 ms. Found 1 JPA repository interface.
+2025-12-11T17:44:51.959+05:30  INFO 15512 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 7665 (http)
+2025-12-11T17:44:51.972+05:30  INFO 15512 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-11T17:44:51.973+05:30  INFO 15512 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-12-11T17:44:52.056+05:30  INFO 15512 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-12-11T17:44:52.058+05:30  INFO 15512 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1947 ms
+2025-12-11T17:44:52.240+05:30  INFO 15512 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-11T17:44:52.310+05:30  INFO 15512 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.3.1.Final
+2025-12-11T17:44:52.353+05:30  INFO 15512 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-12-11T17:44:52.621+05:30  INFO 15512 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-11T17:44:52.653+05:30  INFO 15512 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-12-11T17:44:53.081+05:30  INFO 15512 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4468fda8
+2025-12-11T17:44:53.086+05:30  INFO 15512 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-12-11T17:44:53.166+05:30  WARN 15512 --- [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-11T17:44:54.258+05:30  INFO 15512 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-11T17:44:54.322+05:30  INFO 15512 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-11T17:44:54.761+05:30  WARN 15512 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-11T17:44:55.269+05:30  INFO 15512 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 7665 (http) with context path ''
+2025-12-11T17:44:55.279+05:30  INFO 15512 --- [main] .e.E.EmployeeManagementSystemApplication : Started EmployeeManagementSystemApplication in 5.745 seconds (process running for 6.516)
+2025-12-11T17:45:09.659+05:30  INFO 15512 --- [http-nio-7665-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-11T17:45:09.660+05:30  INFO 15512 --- [http-nio-7665-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-12-11T17:45:09.663+05:30  INFO 15512 --- [http-nio-7665-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-12-11T17:45:09.711+05:30  INFO 15512 --- [http-nio-7665-exec-1] c.e.E.EmployeeController                 : GET /employees/3 - Request to fetch employee by ID
+2025-12-11T17:54:03.357+05:30  INFO 15512 --- [RMI TCP Connection(11)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-12-11T17:54:03.372+05:30  INFO 15512 --- [RMI TCP Connection(11)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-11T17:54:03.375+05:30  INFO 15512 --- [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-12-11T17:54:03.389+05:30  INFO 15512 --- [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-12-11T17:54:12.420+05:30  INFO 16120 --- [main] .e.E.EmployeeManagementSystemApplication : Starting EmployeeManagementSystemApplication using Java 21.0.7 with PID 16120 (C:\Users\hp\OneDrive\Desktop\EmployeeManagementSystem\EmployeeManagementSystem\target\classes started by Pranjali in C:\Users\hp\OneDrive\Desktop\EmployeeManagementSystem\EmployeeManagementSystem)
+2025-12-11T17:54:12.422+05:30 DEBUG 16120 --- [main] .e.E.EmployeeManagementSystemApplication : Running with Spring Boot v3.2.0, Spring v6.1.1
+2025-12-11T17:54:12.423+05:30  INFO 16120 --- [main] .e.E.EmployeeManagementSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2025-12-11T17:54:13.308+05:30  INFO 16120 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-11T17:54:13.386+05:30  INFO 16120 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66 ms. Found 1 JPA repository interface.
+2025-12-11T17:54:13.938+05:30  INFO 16120 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 7665 (http)
+2025-12-11T17:54:13.949+05:30  INFO 16120 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-11T17:54:13.950+05:30  INFO 16120 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-12-11T17:54:14.026+05:30  INFO 16120 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-12-11T17:54:14.026+05:30  INFO 16120 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1550 ms
+2025-12-11T17:54:14.170+05:30  INFO 16120 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-11T17:54:14.234+05:30  INFO 16120 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.3.1.Final
+2025-12-11T17:54:14.273+05:30  INFO 16120 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-12-11T17:54:14.508+05:30  INFO 16120 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-11T17:54:14.545+05:30  INFO 16120 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-12-11T17:54:14.906+05:30  INFO 16120 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@121cf6f4
+2025-12-11T17:54:14.910+05:30  INFO 16120 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-12-11T17:54:14.981+05:30  WARN 16120 --- [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-11T17:54:15.796+05:30  INFO 16120 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-11T17:54:15.858+05:30  INFO 16120 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-11T17:54:16.269+05:30  WARN 16120 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-11T17:54:16.724+05:30  INFO 16120 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 7665 (http) with context path ''
+2025-12-11T17:54:16.732+05:30  INFO 16120 --- [main] .e.E.EmployeeManagementSystemApplication : Started EmployeeManagementSystemApplication in 4.78 seconds (process running for 5.49)
+2025-12-11T17:55:28.418+05:30  INFO 16120 --- [http-nio-7665-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-11T17:55:28.419+05:30  INFO 16120 --- [http-nio-7665-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-12-11T17:55:28.429+05:30  INFO 16120 --- [http-nio-7665-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2025-12-11T18:00:15.802+05:30  INFO 16120 --- [RMI TCP Connection(8)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-12-11T18:00:15.816+05:30  INFO 16120 --- [RMI TCP Connection(8)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-11T18:00:15.821+05:30  INFO 16120 --- [RMI TCP Connection(8)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-12-11T18:00:15.832+05:30  INFO 16120 --- [RMI TCP Connection(8)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-12-11T18:00:25.078+05:30  INFO 23036 --- [main] .e.E.EmployeeManagementSystemApplication : Starting EmployeeManagementSystemApplication using Java 21.0.7 with PID 23036 (C:\Users\hp\OneDrive\Desktop\EmployeeManagementSystem\EmployeeManagementSystem\target\classes started by Pranjali in C:\Users\hp\OneDrive\Desktop\EmployeeManagementSystem\EmployeeManagementSystem)
+2025-12-11T18:00:25.080+05:30 DEBUG 23036 --- [main] .e.E.EmployeeManagementSystemApplication : Running with Spring Boot v3.2.0, Spring v6.1.1
+2025-12-11T18:00:25.080+05:30  INFO 23036 --- [main] .e.E.EmployeeManagementSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2025-12-11T18:00:25.908+05:30  INFO 23036 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-11T18:00:25.971+05:30  INFO 23036 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54 ms. Found 1 JPA repository interface.
+2025-12-11T18:00:26.493+05:30  INFO 23036 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 7665 (http)
+2025-12-11T18:00:26.503+05:30  INFO 23036 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-11T18:00:26.503+05:30  INFO 23036 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-12-11T18:00:26.563+05:30  INFO 23036 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-12-11T18:00:26.564+05:30  INFO 23036 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1430 ms
+2025-12-11T18:00:26.718+05:30  INFO 23036 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-11T18:00:26.767+05:30  INFO 23036 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.3.1.Final
+2025-12-11T18:00:26.810+05:30  INFO 23036 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-12-11T18:00:27.056+05:30  INFO 23036 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-11T18:00:27.087+05:30  INFO 23036 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-12-11T18:00:27.495+05:30  INFO 23036 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3fef1e6b
+2025-12-11T18:00:27.497+05:30  INFO 23036 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-12-11T18:00:27.563+05:30  WARN 23036 --- [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-11T18:00:28.432+05:30  INFO 23036 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-11T18:00:28.490+05:30  INFO 23036 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-11T18:00:28.917+05:30  WARN 23036 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-11T18:00:29.492+05:30  INFO 23036 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 7665 (http) with context path ''
+2025-12-11T18:00:29.500+05:30  INFO 23036 --- [main] .e.E.EmployeeManagementSystemApplication : Started EmployeeManagementSystemApplication in 4.914 seconds (process running for 5.627)
+2025-12-11T18:00:38.065+05:30  INFO 23036 --- [http-nio-7665-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-11T18:00:38.067+05:30  INFO 23036 --- [http-nio-7665-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-12-11T18:00:38.069+05:30  INFO 23036 --- [http-nio-7665-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-12-11T18:01:27.966+05:30  INFO 23036 --- [http-nio-7665-exec-5] c.e.E.EmployeeController                 : DELETE /employees/delete/56 - Request to delete employee
+2025-12-11T18:01:27.966+05:30  INFO 23036 --- [http-nio-7665-exec-5] c.e.E.EmployeeService                    : Request to delete employee with ID: 56
+2025-12-11T18:01:28.143+05:30  WARN 23036 --- [http-nio-7665-exec-5] c.e.E.EmployeeService                    : Employee not found with ID: 56
+2025-12-11T18:01:54.338+05:30  INFO 23036 --- [http-nio-7665-exec-6] c.e.E.EmployeeController                 : GET /employees/all - Request to fetch all employees
+2025-12-11T18:01:54.338+05:30  INFO 23036 --- [http-nio-7665-exec-6] c.e.E.EmployeeService                    : Fetching all employees
+2025-12-11T18:01:54.687+05:30 DEBUG 23036 --- [http-nio-7665-exec-6] c.e.E.EmployeeService                    : Total employees fetched: 6
+2025-12-11T18:01:54.687+05:30 DEBUG 23036 --- [http-nio-7665-exec-6] c.e.E.EmployeeController                 : Total employees fetched: 6
+2025-12-11T18:02:42.474+05:30  INFO 23036 --- [http-nio-7665-exec-7] c.e.E.EmployeeController                 : POST /employees/add - Request to add employee: Hari Ram
+2025-12-11T18:02:42.474+05:30  INFO 23036 --- [http-nio-7665-exec-7] c.e.E.EmployeeService                    : Request to save employee: Hari Ram
+2025-12-11T18:02:42.582+05:30 DEBUG 23036 --- [http-nio-7665-exec-7] c.e.E.EmployeeService                    : Employee saved successfully: Employee(id=8, name=Hari Ram, department= Java, salary=76000.0)
+2025-12-11T18:02:42.584+05:30 DEBUG 23036 --- [http-nio-7665-exec-7] c.e.E.EmployeeController                 : Employee saved successfully: Hari Ram
+2025-12-11T18:03:30.599+05:30  INFO 23036 --- [http-nio-7665-exec-10] c.e.E.EmployeeController                 : PUT /employees/update/8 - Request to update employee: Ram HARI
+2025-12-11T18:03:30.599+05:30  INFO 23036 --- [http-nio-7665-exec-10] c.e.E.EmployeeService                    : Request to update employee with ID: 8
+2025-12-11T18:03:30.653+05:30 DEBUG 23036 --- [http-nio-7665-exec-10] c.e.E.EmployeeService                    : Employee updated successfully: Employee(id=8, name=Ram HARI, department= Java, salary=76000.0)
+2025-12-11T18:03:30.656+05:30 DEBUG 23036 --- [http-nio-7665-exec-10] c.e.E.EmployeeController                 : Employee updated successfully: Ram HARI
+2025-12-11T18:08:42.734+05:30  INFO 23036 --- [RMI TCP Connection(12)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-12-11T18:08:42.751+05:30  INFO 23036 --- [RMI TCP Connection(12)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-11T18:08:42.753+05:30  INFO 23036 --- [RMI TCP Connection(12)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-12-11T18:08:42.763+05:30  INFO 23036 --- [RMI TCP Connection(12)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-12-11T18:08:50.906+05:30  INFO 7480 --- [main] .e.E.EmployeeManagementSystemApplication : Starting EmployeeManagementSystemApplication using Java 21.0.7 with PID 7480 (C:\Users\hp\OneDrive\Desktop\EmployeeManagementSystem\EmployeeManagementSystem\target\classes started by Pranjali in C:\Users\hp\OneDrive\Desktop\EmployeeManagementSystem\EmployeeManagementSystem)
+2025-12-11T18:08:50.908+05:30 DEBUG 7480 --- [main] .e.E.EmployeeManagementSystemApplication : Running with Spring Boot v3.2.0, Spring v6.1.1
+2025-12-11T18:08:50.909+05:30  INFO 7480 --- [main] .e.E.EmployeeManagementSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2025-12-11T18:08:51.774+05:30  INFO 7480 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-11T18:08:51.831+05:30  INFO 7480 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48 ms. Found 1 JPA repository interface.
+2025-12-11T18:08:52.365+05:30  INFO 7480 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 7665 (http)
+2025-12-11T18:08:52.373+05:30  INFO 7480 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-11T18:08:52.374+05:30  INFO 7480 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-12-11T18:08:52.442+05:30  INFO 7480 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-12-11T18:08:52.442+05:30  INFO 7480 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1481 ms
+2025-12-11T18:08:52.614+05:30  INFO 7480 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-11T18:08:52.695+05:30  INFO 7480 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.3.1.Final
+2025-12-11T18:08:52.727+05:30  INFO 7480 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-12-11T18:08:52.969+05:30  INFO 7480 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-11T18:08:53.001+05:30  INFO 7480 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-12-11T18:08:53.406+05:30  INFO 7480 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1884e671
+2025-12-11T18:08:53.408+05:30  INFO 7480 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-12-11T18:08:53.469+05:30  WARN 7480 --- [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-11T18:08:54.301+05:30  INFO 7480 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-11T18:08:54.351+05:30  INFO 7480 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-11T18:08:54.771+05:30  WARN 7480 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-11T18:08:55.235+05:30  INFO 7480 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 7665 (http) with context path ''
+2025-12-11T18:08:55.247+05:30  INFO 7480 --- [main] .e.E.EmployeeManagementSystemApplication : Started EmployeeManagementSystemApplication in 4.925 seconds (process running for 5.648)
+2025-12-11T18:10:01.893+05:30  INFO 7480 --- [http-nio-7665-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-11T18:10:01.895+05:30  INFO 7480 --- [http-nio-7665-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-12-11T18:10:01.899+05:30  INFO 7480 --- [http-nio-7665-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2025-12-11T18:10:03.001+05:30  INFO 7480 --- [http-nio-7665-exec-9] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 659 ms
+2025-12-11T18:10:08.873+05:30  INFO 7480 --- [http-nio-7665-exec-10] c.e.E.EmployeeController                 : GET /employees/1 - Request to fetch employee by ID
+2025-12-11T18:10:08.873+05:30  INFO 7480 --- [http-nio-7665-exec-10] c.e.E.EmployeeService                    : Fetching employee by ID: 1
+2025-12-11T18:10:18.335+05:30  INFO 7480 --- [http-nio-7665-exec-4] c.e.E.EmployeeController                 : GET /employees/all - Request to fetch all employees
+2025-12-11T18:10:18.336+05:30  INFO 7480 --- [http-nio-7665-exec-4] c.e.E.EmployeeService                    : Fetching all employees
+2025-12-11T18:10:18.603+05:30 DEBUG 7480 --- [http-nio-7665-exec-4] c.e.E.EmployeeService                    : Total employees fetched: 7
+2025-12-11T18:10:18.604+05:30 DEBUG 7480 --- [http-nio-7665-exec-4] c.e.E.EmployeeController                 : Total employees fetched: 7

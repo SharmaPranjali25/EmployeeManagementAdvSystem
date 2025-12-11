@@ -86,6 +86,7 @@ import com.example.EmployeeManagementSystem.dto.EmployeeResponseDTO;
 import com.example.EmployeeManagementSystem.exception.ResourceNotFoundException;
 
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.Collectors;
 
 @Service
@@ -169,18 +170,11 @@ public class EmployeeService {
 //        return mapToResponseDTO(employee);
 //    }
     
-    public EmployeeResponseDTO getEmployeeById(Long id) {
+    public Optional<Employee> getEmployeeById(Long id) {
         log.info("Fetching employee by ID: {}", id);
-
-        Employee employee = repository.findById(id)
-                .orElseThrow(() -> {
-                    log.warn("Employee not found with ID: {}", id);
-                    return new ResourceNotFoundException("Employee not found with id: " + id);
-                });
-
-        return modelMapper.map(employee, EmployeeResponseDTO.class); // map to DTO
+        return repository.findById(id);
     }
-    
+
     
 
     // Update Employee
