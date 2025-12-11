@@ -6,3 +6,5 @@ Use global REST API exception handling
 create DTO for each entity and DTO Layer (Request nad Response Objects)
 implement API Documentation with Swagger
 Use Mapper Layer(Model Mapper)
+Api Versioning
+Actuator
