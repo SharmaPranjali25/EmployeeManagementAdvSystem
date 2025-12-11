@@ -1,5 +1,5 @@
 server:
-  port: 7665
+  port: 7543
 
 spring:
   datasource:
@@ -18,7 +18,17 @@ spring:
 
 logging:
   file:
-    name: employee-app.log          # Log file
+    name: employee-app.log
   level:
-    root: INFO                      # Default log level
-    com.example.EmployeeManagementSystem: DEBUG   # Detailed logs for your package
+    root: INFO
+    com.example.EmployeeManagementSystem: DEBUG
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+  endpoint:
+    health:
+      show-details: always
