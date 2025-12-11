@@ -1,0 +1,24 @@
+server:
+  port: 7665
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/Employee_db
+    username: root
+    password: Pranjali@#115
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+    show-sql: true
+
+logging:
+  file:
+    name: employee-app.log          # Log file
+  level:
+    root: INFO                      # Default log level
+    com.example.EmployeeManagementSystem: DEBUG   # Detailed logs for your package
